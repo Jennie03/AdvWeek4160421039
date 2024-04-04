@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -32,18 +33,22 @@ public final class StudentListItemBinding implements ViewBinding {
   public final ImageView imageView;
 
   @NonNull
+  public final ProgressBar progressImage;
+
+  @NonNull
   public final TextView txtID;
 
   @NonNull
   public final TextView txtName;
 
   private StudentListItemBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnDetail,
-      @NonNull CardView cardView, @NonNull ImageView imageView, @NonNull TextView txtID,
-      @NonNull TextView txtName) {
+      @NonNull CardView cardView, @NonNull ImageView imageView, @NonNull ProgressBar progressImage,
+      @NonNull TextView txtID, @NonNull TextView txtName) {
     this.rootView = rootView;
     this.btnDetail = btnDetail;
     this.cardView = cardView;
     this.imageView = imageView;
+    this.progressImage = progressImage;
     this.txtID = txtID;
     this.txtName = txtName;
   }
@@ -93,6 +98,12 @@ public final class StudentListItemBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.progressImage;
+      ProgressBar progressImage = ViewBindings.findChildViewById(rootView, id);
+      if (progressImage == null) {
+        break missingId;
+      }
+
       id = R.id.txtID;
       TextView txtID = ViewBindings.findChildViewById(rootView, id);
       if (txtID == null) {
@@ -106,7 +117,7 @@ public final class StudentListItemBinding implements ViewBinding {
       }
 
       return new StudentListItemBinding((ConstraintLayout) rootView, btnDetail, cardView, imageView,
-          txtID, txtName);
+          progressImage, txtID, txtName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

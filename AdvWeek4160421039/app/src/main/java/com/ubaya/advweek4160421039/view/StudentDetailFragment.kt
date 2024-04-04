@@ -1,6 +1,8 @@
 package com.ubaya.advweek4160421039.view
 
+import android.annotation.SuppressLint
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -10,9 +12,13 @@ import androidx.lifecycle.ViewModelProvider
 import com.ubaya.advweek4160421039.R
 import com.ubaya.advweek4160421039.databinding.FragmentStudentDetailBinding
 import com.ubaya.advweek4160421039.viewmodel.DetailViewModel
+import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
+import io.reactivex.rxjava3.core.Observable
+import io.reactivex.rxjava3.schedulers.Schedulers
+import java.util.concurrent.TimeUnit
 
 class StudentDetailFragment : Fragment() {
-    private lateinit var  viewModel:DetailViewModel
+    private lateinit var viewModel: DetailViewModel
     private lateinit var binding: FragmentStudentDetailBinding
 
     override fun onCreateView(
@@ -31,11 +37,36 @@ class StudentDetailFragment : Fragment() {
         viewModel.fetch()
 
         viewModel.studentLD.observe(viewLifecycleOwner, Observer {
-            with(binding){
+            with(binding) {
                 txtID.setText(it.id)
                 txtName.setText(it.name)
                 txtBod.setText(it.dob)
                 txtPhone.setText(it.phone)
+//                imageView2.setImageURI()
+            }
+
+        })
+        observeViewModel()
+    }
+
+    @SuppressLint("CheckResult")
+    fun observeViewModel() {
+        viewModel.studentLD.observe(viewLifecycleOwner, Observer
+        {
+            var student = it
+
+            binding.btnUpdate?.setOnClickListener {
+                Observable.timer(5, TimeUnit.SECONDS)
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe {
+                        Log.d("Messages", "five seconds")
+                        MainActivity.showNotification(
+                            student.name.toString(),
+                            "A new notification created",
+                            R.drawable.baseline_person_add_24
+                        )
+                    }
             }
         })
     }

@@ -7,6 +7,7 @@ color purple_700
 color teal_200
 color teal_700
 color white
+drawable baseline_person_add_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id actionStudentDetail
@@ -17,8 +18,10 @@ id fragmentHost
 id imageView
 id imageView2
 id main_navigation
+id progressImage
 id progressLoad
 id recView
+id refreshLayout
 id studentDetailFragment
 id studentListFragment
 id textInputLayout

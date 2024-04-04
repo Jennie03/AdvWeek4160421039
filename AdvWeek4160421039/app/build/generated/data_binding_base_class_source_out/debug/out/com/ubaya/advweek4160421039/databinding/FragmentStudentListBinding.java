@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.ubaya.advweek4160421039.R;
@@ -28,14 +29,18 @@ public final class FragmentStudentListBinding implements ViewBinding {
   public final RecyclerView recView;
 
   @NonNull
+  public final SwipeRefreshLayout refreshLayout;
+
+  @NonNull
   public final TextView txtError;
 
   private FragmentStudentListBinding(@NonNull FrameLayout rootView,
       @NonNull ProgressBar progressLoad, @NonNull RecyclerView recView,
-      @NonNull TextView txtError) {
+      @NonNull SwipeRefreshLayout refreshLayout, @NonNull TextView txtError) {
     this.rootView = rootView;
     this.progressLoad = progressLoad;
     this.recView = recView;
+    this.refreshLayout = refreshLayout;
     this.txtError = txtError;
   }
 
@@ -78,6 +83,12 @@ public final class FragmentStudentListBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.refreshLayout;
+      SwipeRefreshLayout refreshLayout = ViewBindings.findChildViewById(rootView, id);
+      if (refreshLayout == null) {
+        break missingId;
+      }
+
       id = R.id.txtError;
       TextView txtError = ViewBindings.findChildViewById(rootView, id);
       if (txtError == null) {
@@ -85,7 +96,7 @@ public final class FragmentStudentListBinding implements ViewBinding {
       }
 
       return new FragmentStudentListBinding((FrameLayout) rootView, progressLoad, recView,
-          txtError);
+          refreshLayout, txtError);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -3020,6 +3020,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable baseline_person_add_24
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3485,6 +3486,7 @@ id pin
 id position
 id postLayout
 id pressed
+id progressImage
 id progressLoad
 id progress_circular
 id progress_horizontal
@@ -3492,6 +3494,7 @@ id radio
 id ratio
 id recView
 id rectangles
+id refreshLayout
 id report_drawn
 id reverseSawtooth
 id right

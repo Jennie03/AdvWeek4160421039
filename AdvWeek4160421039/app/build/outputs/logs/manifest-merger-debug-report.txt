@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [androidx.databinding:viewbinding:8.1.1] C:\Users\JENNIE\.gradle\caches\transforms-3\9970ccf6f65840e65030f7b4c2076b7d\transformed\viewbinding-8.1.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\JENNIE\.gradle\caches\transforms-3\a9cd96d5e30389575a3d93812d546892\transformed\navigation-common-2.7.7\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\JENNIE\.gradle\caches\transforms-3\e21b4e8da986d062f35efcd4073ab774\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
@@ -51,6 +51,9 @@ MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\JENNIE\.gradle\cache
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\JENNIE\.gradle\caches\transforms-3\13f9422225229d2f3408f31ad15fd202\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\JENNIE\.gradle\caches\transforms-3\1dce500f4d7cda64009470f95d032bbc\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\JENNIE\.gradle\caches\transforms-3\8c98cc78583d786614b4c420e81da98f\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\JENNIE\.gradle\caches\transforms-3\68e2b397d62b8b57c36d934adba12919\transformed\volley-1.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] C:\Users\JENNIE\.gradle\caches\transforms-3\5411ed841d0567c75b686acf12d6caae\transformed\rxandroid-3.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\JENNIE\.gradle\caches\transforms-3\1e57694f36243215cceffdc4ecb36603\transformed\picasso-2.71828\AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\JENNIE\.gradle\caches\transforms-3\fc50eeedabfece475ae7c0d287106c74\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\JENNIE\.gradle\caches\transforms-3\2c1065932ac5ea76e561913236e714e6\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\JENNIE\.gradle\caches\transforms-3\2e793921f704d72c458d38b516ae1656\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -63,6 +66,7 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\JENNIE\.gradle\caches\transforms-3\dcb9dcfa4e4884383cb043b7eb6cad91\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\JENNIE\.gradle\caches\transforms-3\ee002cfbb2b153a95c5d695cb80b4199\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\JENNIE\.gradle\caches\transforms-3\e42268c42032d264e7a21e72ba4f42ab\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\JENNIE\.gradle\caches\transforms-3\ffc0434040e0e49db27bc7123abbd941\transformed\exifinterface-27.1.0\AndroidManifest.xml:17:1-22:12
 	package
 		INJECTED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -73,9 +77,17 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\JENNIE\
 		INJECTED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:5:22-74
 application
-ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:5:5-24:19
-INJECTED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:5:5-24:19
+ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:6:5-26:19
+INJECTED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:6:5-26:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\JENNIE\.gradle\caches\transforms-3\7c8188cf49dbb26472f91c5ab0d0ef07\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\JENNIE\.gradle\caches\transforms-3\7c8188cf49dbb26472f91c5ab0d0ef07\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\JENNIE\.gradle\caches\transforms-3\b518d8e128530055447a266e357b00ec\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -88,6 +100,8 @@ MERGED from [androidx.core:core:1.9.0] C:\Users\JENNIE\.gradle\caches\transforms
 MERGED from [androidx.core:core:1.9.0] C:\Users\JENNIE\.gradle\caches\transforms-3\51f39f4586c545513d3ff2f487422c39\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\JENNIE\.gradle\caches\transforms-3\2f9d251536c12bd67cdc0020aa8a0c23\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\JENNIE\.gradle\caches\transforms-3\2f9d251536c12bd67cdc0020aa8a0c23\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\JENNIE\.gradle\caches\transforms-3\1e57694f36243215cceffdc4ecb36603\transformed\picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\JENNIE\.gradle\caches\transforms-3\1e57694f36243215cceffdc4ecb36603\transformed\picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\JENNIE\.gradle\caches\transforms-3\4d13cf77957d11e1214fbffcfd9bc529\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\JENNIE\.gradle\caches\transforms-3\4d13cf77957d11e1214fbffcfd9bc529\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JENNIE\.gradle\caches\transforms-3\8b9b8f62e3829d0a4b2ac2d7a0aa29a9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
@@ -99,39 +113,41 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\JENNIE\.gradle\cac
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\JENNIE\.gradle\caches\transforms-3\51f39f4586c545513d3ff2f487422c39\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:12:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:8:9-54
+		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:10:9-54
 	android:roundIcon
-		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:13:9-54
 	tools:targetApi
-		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:14:9-29
+		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:16:9-29
 	android:icon
-		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:13:9-55
+		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:15:9-55
 	android:dataExtractionRules
-		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:7:9-65
+		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:9:9-65
+	android:usesCleartextTraffic
+		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:7:9-44
 activity#com.ubaya.advweek4160421039.view.MainActivity
-ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:15:9-23:20
+ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:17:9-25:20
 	android:exported
-		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:19:13-36
 	android:name
-		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:16:13-46
+		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:18:13-46
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml:23:27-74
 uses-sdk
 INJECTED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml
@@ -230,6 +246,12 @@ MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\JENNIE\.gr
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\JENNIE\.gradle\caches\transforms-3\1dce500f4d7cda64009470f95d032bbc\transformed\lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\JENNIE\.gradle\caches\transforms-3\8c98cc78583d786614b4c420e81da98f\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Users\JENNIE\.gradle\caches\transforms-3\8c98cc78583d786614b4c420e81da98f\transformed\lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\JENNIE\.gradle\caches\transforms-3\68e2b397d62b8b57c36d934adba12919\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\JENNIE\.gradle\caches\transforms-3\68e2b397d62b8b57c36d934adba12919\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] C:\Users\JENNIE\.gradle\caches\transforms-3\5411ed841d0567c75b686acf12d6caae\transformed\rxandroid-3.0.0\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava3:rxandroid:3.0.0] C:\Users\JENNIE\.gradle\caches\transforms-3\5411ed841d0567c75b686acf12d6caae\transformed\rxandroid-3.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\JENNIE\.gradle\caches\transforms-3\1e57694f36243215cceffdc4ecb36603\transformed\picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\JENNIE\.gradle\caches\transforms-3\1e57694f36243215cceffdc4ecb36603\transformed\picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\JENNIE\.gradle\caches\transforms-3\fc50eeedabfece475ae7c0d287106c74\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\JENNIE\.gradle\caches\transforms-3\fc50eeedabfece475ae7c0d287106c74\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\JENNIE\.gradle\caches\transforms-3\2c1065932ac5ea76e561913236e714e6\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
@@ -254,6 +276,8 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\JENNIE\.gradle\cach
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\JENNIE\.gradle\caches\transforms-3\ee002cfbb2b153a95c5d695cb80b4199\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\JENNIE\.gradle\caches\transforms-3\e42268c42032d264e7a21e72ba4f42ab\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\JENNIE\.gradle\caches\transforms-3\e42268c42032d264e7a21e72ba4f42ab\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\JENNIE\.gradle\caches\transforms-3\ffc0434040e0e49db27bc7123abbd941\transformed\exifinterface-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\JENNIE\.gradle\caches\transforms-3\ffc0434040e0e49db27bc7123abbd941\transformed\exifinterface-27.1.0\AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
 		INJECTED from C:\Users\JENNIE\AdvWeek4160421039\AdvWeek4160421039\AdvWeek4160421039\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
@@ -318,6 +342,14 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\JENNIE\.gradle\
 		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\JENNIE\.gradle\caches\transforms-3\2f9d251536c12bd67cdc0020aa8a0c23\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\JENNIE\.gradle\caches\transforms-3\2f9d251536c12bd67cdc0020aa8a0c23\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\JENNIE\.gradle\caches\transforms-3\1e57694f36243215cceffdc4ecb36603\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\JENNIE\.gradle\caches\transforms-3\1e57694f36243215cceffdc4ecb36603\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\JENNIE\.gradle\caches\transforms-3\1e57694f36243215cceffdc4ecb36603\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\JENNIE\.gradle\caches\transforms-3\1e57694f36243215cceffdc4ecb36603\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
 ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\JENNIE\.gradle\caches\transforms-3\8b9b8f62e3829d0a4b2ac2d7a0aa29a9\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
 	android:value
