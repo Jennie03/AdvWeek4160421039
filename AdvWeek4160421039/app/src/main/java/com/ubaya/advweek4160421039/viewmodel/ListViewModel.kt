@@ -56,9 +56,6 @@ import com.ubaya.advweek4160421039.model.Student
 //                    ".jpg/5fa2dd/ffffff"),
 //            Student("11204","Dinny","1994/10/07","6827808747","http://dummyimage.com/75x100.jpg/5fa2dd/ffffff1")
 //        )
-
-        studentLoadErrorLD.value = false
-        loadingLD.value = false
     }
 
     override fun onCleared() {

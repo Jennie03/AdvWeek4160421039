@@ -9,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import com.squareup.picasso.Picasso
 import com.ubaya.advweek4160421039.R
 import com.ubaya.advweek4160421039.databinding.FragmentStudentDetailBinding
 import com.ubaya.advweek4160421039.viewmodel.DetailViewModel
@@ -32,20 +33,12 @@ class StudentDetailFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        val studentId = StudentDetailFragmentArgs.fromBundle(requireArguments()).studentId
+
         super.onViewCreated(view, savedInstanceState)
         viewModel = ViewModelProvider(this).get(DetailViewModel::class.java)
-        viewModel.fetch()
+        viewModel.fetch(studentId)
 
-        viewModel.studentLD.observe(viewLifecycleOwner, Observer {
-            with(binding) {
-                txtID.setText(it.id)
-                txtName.setText(it.name)
-                txtBod.setText(it.dob)
-                txtPhone.setText(it.phone)
-//                imageView2.setImageURI()
-            }
-
-        })
         observeViewModel()
     }
 
@@ -68,6 +61,16 @@ class StudentDetailFragment : Fragment() {
                         )
                     }
             }
+            with(binding)
+            {
+                txtID.setText(it.id)
+                txtName.setText(it.name)
+                txtBod.setText(it.dob)
+                txtPhone.setText(it.phone)
+            }
+
+            val pic = Picasso.Builder(requireContext())
+            pic.build().load(it.photoUrl).into(binding.imgStudentDetail)
         })
     }
 }
