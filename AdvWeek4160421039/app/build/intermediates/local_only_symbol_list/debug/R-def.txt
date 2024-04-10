@@ -16,7 +16,7 @@ id btnUpdate
 id cardView
 id fragmentHost
 id imageView
-id imageView2
+id imgStudentDetail
 id main_navigation
 id progressImage
 id progressLoad

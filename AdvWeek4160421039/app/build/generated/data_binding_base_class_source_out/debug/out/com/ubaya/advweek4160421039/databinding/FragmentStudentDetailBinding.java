@@ -26,7 +26,7 @@ public final class FragmentStudentDetailBinding implements ViewBinding {
   public final Button btnUpdate;
 
   @NonNull
-  public final ImageView imageView2;
+  public final ImageView imgStudentDetail;
 
   @NonNull
   public final TextInputLayout textInputLayout;
@@ -53,14 +53,14 @@ public final class FragmentStudentDetailBinding implements ViewBinding {
   public final TextInputEditText txtPhone;
 
   private FragmentStudentDetailBinding(@NonNull FrameLayout rootView, @NonNull Button btnUpdate,
-      @NonNull ImageView imageView2, @NonNull TextInputLayout textInputLayout,
+      @NonNull ImageView imgStudentDetail, @NonNull TextInputLayout textInputLayout,
       @NonNull TextInputLayout textInputLayout2, @NonNull TextInputLayout textInputLayout3,
       @NonNull TextInputLayout textInputLayout4, @NonNull TextInputEditText txtBod,
       @NonNull TextInputEditText txtID, @NonNull TextInputEditText txtName,
       @NonNull TextInputEditText txtPhone) {
     this.rootView = rootView;
     this.btnUpdate = btnUpdate;
-    this.imageView2 = imageView2;
+    this.imgStudentDetail = imgStudentDetail;
     this.textInputLayout = textInputLayout;
     this.textInputLayout2 = textInputLayout2;
     this.textInputLayout3 = textInputLayout3;
@@ -104,9 +104,9 @@ public final class FragmentStudentDetailBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView2;
-      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView2 == null) {
+      id = R.id.imgStudentDetail;
+      ImageView imgStudentDetail = ViewBindings.findChildViewById(rootView, id);
+      if (imgStudentDetail == null) {
         break missingId;
       }
 
@@ -158,7 +158,7 @@ public final class FragmentStudentDetailBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentStudentDetailBinding((FrameLayout) rootView, btnUpdate, imageView2,
+      return new FragmentStudentDetailBinding((FrameLayout) rootView, btnUpdate, imgStudentDetail,
           textInputLayout, textInputLayout2, textInputLayout3, textInputLayout4, txtBod, txtID,
           txtName, txtPhone);
     }
