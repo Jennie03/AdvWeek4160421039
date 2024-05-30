@@ -2,6 +2,7 @@ package com.ubaya.advweek4160421039.view
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.ubaya.advweek4160421039.databinding.StudentListItemBinding
@@ -13,8 +14,9 @@ class StudentListAdapter(val studentList:ArrayList<Student>) :RecyclerView.Adapt
         : RecyclerView.ViewHolder(binding.root)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StudentViewHolder {
-        val binding = StudentListItemBinding.inflate(
-            LayoutInflater.from(parent.context), parent, false)
+        val inflater = LayoutInflater.from(parent.context)
+//        val binding = StudentListItemBinding.inflate(
+//            LayoutInflater.from(parent.context), parent, false)
         return StudentViewHolder(binding)
     }
 
