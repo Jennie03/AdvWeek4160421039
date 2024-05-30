@@ -1,22 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\JENNIE\\.gradle\\daemon\\8.0\\com.ubaya.advweek4160421039.app-mergeDebugResources-47:\\layout\\student_list_item.xml",
-        "source": "C:\\Users\\JENNIE\\.gradle\\daemon\\8.0\\com.ubaya.advweek4160421039.app-main-50:\\layout\\student_list_item.xml"
+        "merged": "C:\\Users\\JENNIE\\.gradle\\daemon\\8.0\\com.ubaya.advweek4160421039.app-mergeDebugResources-50:\\layout\\fragment_student_detail.xml",
+        "source": "C:\\Users\\JENNIE\\.gradle\\daemon\\8.0\\com.ubaya.advweek4160421039.app-main-53:\\layout\\fragment_student_detail.xml"
     },
     {
-        "merged": "C:\\Users\\JENNIE\\.gradle\\daemon\\8.0\\com.ubaya.advweek4160421039.app-mergeDebugResources-47:\\layout\\fragment_student_detail.xml",
-        "source": "C:\\Users\\JENNIE\\.gradle\\daemon\\8.0\\com.ubaya.advweek4160421039.app-main-50:\\layout\\fragment_student_detail.xml"
+        "merged": "com.ubaya.advweek4160421039.app-mergeDebugResources-50:/layout/student_list_item.xml",
+        "source": "com.ubaya.advweek4160421039.app-main-53:/layout/student_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\JENNIE\\.gradle\\daemon\\8.0\\com.ubaya.advweek4160421039.app-mergeDebugResources-47:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\JENNIE\\.gradle\\daemon\\8.0\\com.ubaya.advweek4160421039.app-main-50:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\JENNIE\\.gradle\\daemon\\8.0\\com.ubaya.advweek4160421039.app-mergeDebugResources-50:\\layout\\fragment_student_list.xml",
+        "source": "C:\\Users\\JENNIE\\.gradle\\daemon\\8.0\\com.ubaya.advweek4160421039.app-main-53:\\layout\\fragment_student_list.xml"
     },
     {
-        "merged": "C:\\Users\\JENNIE\\.gradle\\daemon\\8.0\\com.ubaya.advweek4160421039.app-mergeDebugResources-47:\\layout\\fragment_student_list.xml",
-        "source": "C:\\Users\\JENNIE\\.gradle\\daemon\\8.0\\com.ubaya.advweek4160421039.app-main-50:\\layout\\fragment_student_list.xml"
+        "merged": "C:\\Users\\JENNIE\\.gradle\\daemon\\8.0\\com.ubaya.advweek4160421039.app-mergeDebugResources-50:\\layout\\student_list_item.xml",
+        "source": "C:\\Users\\JENNIE\\.gradle\\daemon\\8.0\\com.ubaya.advweek4160421039.app-main-53:\\layout\\student_list_item.xml"
     },
     {
-        "merged": "com.ubaya.advweek4160421039.app-mergeDebugResources-47:/layout/fragment_student_detail.xml",
-        "source": "com.ubaya.advweek4160421039.app-main-50:/layout/fragment_student_detail.xml"
+        "merged": "C:\\Users\\JENNIE\\.gradle\\daemon\\8.0\\com.ubaya.advweek4160421039.app-mergeDebugResources-50:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\JENNIE\\.gradle\\daemon\\8.0\\com.ubaya.advweek4160421039.app-main-53:\\layout\\activity_main.xml"
     }
 ]
